@@ -171,6 +171,10 @@
                         <div style="color: red; font-size: 12px;">⚠️ RETRY "NEVER" WILL NOT RENDER A NEW WIDGET ON ERROR
                         </div>
                         }
+                        <h3>First one</h3>
+                        <ng-cloudflare-turnstile [config]="config" (event)="eventHandler($event)">
+                        </ng-cloudflare-turnstile>
+                        <h3>Another one</h3>
                         <ng-cloudflare-turnstile [config]="config" (event)="eventHandler($event)">
                         </ng-cloudflare-turnstile>
                     </div>
