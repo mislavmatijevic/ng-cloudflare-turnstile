@@ -1,5 +1,5 @@
 import { Component, EventEmitter, Output, type OnInit } from '@angular/core';
-import { Appearance, Language, NgCloudflareTurnstile, Retry, Size, Theme, type Config, type Result } from '@pangz/ng-cloudflare-turnstile';
+import { Appearance, Language, NgCloudflareTurnstile, Retry, Size, Theme, type Config, type Result } from '../../../ng-cloudflare-turnstile/src/public-api';
 
 @Component({
     selector: 'app-captcha',

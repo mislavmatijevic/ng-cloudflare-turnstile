@@ -1,6 +1,6 @@
 import { ChangeDetectorRef, Component, type OnInit } from '@angular/core';
 import { FormControl, FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { Appearance, DevSiteKey, Language, NgCloudflareTurnstile, RefreshExpiry, RefreshTimeout, Retry, Size, State, Theme, type Config, type Result, type TurnstileManager } from '@pangz/ng-cloudflare-turnstile';
+import { Appearance, DevSiteKey, Language, NgCloudflareTurnstile, RefreshExpiry, RefreshTimeout, Retry, Size, State, Theme, type Config, type Result, type TurnstileManager } from '../../../ng-cloudflare-turnstile/src/public-api';
 import { CaptchaComponent } from "../captcha/captcha.component";
 import { ClipboardComponent } from "../clipboard/clipboard.component";
 import { LibLabelComponent } from "../lib-label/lib-label.component";
